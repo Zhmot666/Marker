@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="beafb575-8231-4e73-9788-5996ce6c52a9">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed04627-4610-4e89-9c70-3729fdd492ce">
   <producedTypes>
-    <objectType typeId="3c171617-47c5-4135-86cb-e221f791668d" valueTypeId="3153ac30-e93e-4382-a9c1-8536f8d9bbd5"/>
-    <refType typeId="7e553cd5-5065-407e-9177-2cbe34be4577" valueTypeId="8e3cc466-32e8-4bd9-a189-0a1c9568a734"/>
-    <selectionType typeId="a46e2b57-06b6-40ff-af1c-c6a5248ed9ad" valueTypeId="fa8294eb-eb6e-485b-a9f0-836212f8331a"/>
-    <listType typeId="07cc0135-3af4-4e27-8a05-20028752e8ef" valueTypeId="a865eaea-1268-43c3-b0d4-1ae0b0790e00"/>
-    <managerType typeId="3ba28599-154b-41a4-bcd5-027213912621" valueTypeId="e1e65253-83fe-4b6c-b84c-bf7fed69608b"/>
+    <objectType typeId="2312a551-6906-4946-91f7-e8f57db469a9" valueTypeId="df995bfa-4b37-4518-a3ef-7af2943798b3"/>
+    <refType typeId="c7e67bc2-1fb7-4809-84d4-509ade65b677" valueTypeId="7235ce60-616b-4b72-8c84-8dd7d99353db"/>
+    <selectionType typeId="699ea62f-fab6-4d76-b92c-9293b0abf013" valueTypeId="ea699f0a-6980-4db9-866c-c9d096035fd3"/>
+    <listType typeId="89328874-6459-4ae4-a534-26a19b4cf9b1" valueTypeId="5e67a2d5-acde-4b77-97d2-085eb727b8e6"/>
+    <managerType typeId="956dfef7-2353-4147-a7e5-9e488a6a8382" valueTypeId="4016b4d9-f41f-4a39-aa39-e5e9ce87d60b"/>
   </producedTypes>
-  <name>ПоступлениеКодовМаркировки</name>
+  <name>ЗаказКодовМаркировки</name>
   <synonym>
     <key>ru</key>
-    <value>Поступление кодов маркировки</value>
+    <value>Заказ кодов маркировки</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПоступлениеКодовМаркировки.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ЗаказКодовМаркировки.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>ПоступлениеКодовМаркировки</value>
+    <value>ЗаказКодовМаркировки</value>
   </objectPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
@@ -29,14 +29,14 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="f0e3da8a-97cc-4b19-b2ac-6dba07f3759f">
-    <name>Оператор</name>
+  <attributes uuid="f69e8cb2-b1c9-4f67-91b5-bf81303e2028">
+    <name>Заказ</name>
     <synonym>
       <key>ru</key>
-      <value>Оператор</value>
+      <value>Заказ</value>
     </synonym>
     <type>
-      <types>CatalogRef.ОператорыМаркировки</types>
+      <types>DocumentRef.Заказ</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -44,14 +44,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="03ea08fe-e008-40b1-b351-1d955ed40e92">
-    <name>ЗаказКодов</name>
+  <attributes uuid="12d2fe18-3d01-4304-8205-e141fd5af069">
+    <name>Ответственный</name>
     <synonym>
       <key>ru</key>
-      <value>Заказ кодов</value>
+      <value>Ответственный</value>
     </synonym>
     <type>
-      <types>DocumentRef.ЗаказКодовМаркировки</types>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -59,14 +59,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="69623ff8-13ed-43fe-9efb-2b2078a461dd">
-    <name>ОтветAPIБинарный</name>
+  <attributes uuid="1e460f1d-a048-4e2b-997d-f823dbb830b6">
+    <name>СтатусВыполнения</name>
     <synonym>
       <key>ru</key>
-      <value>Ответ API (бинарный)</value>
+      <value>Статус выполнения</value>
     </synonym>
     <type>
-      <types>ValueStorage</types>
+      <types>EnumRef.СтатусВыполненияЗаказаКодов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -74,36 +74,34 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="20aaf7f8-64ae-469c-bc6f-359bb021494e">
-    <name>КоличествоКодов</name>
+  <attributes uuid="69c192c4-6137-4d78-8b94-69e61c9fa579">
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
-      <value>Количество кодов</value>
+      <value>Комментарий</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="b5e8ce55-16ba-4dba-9e07-a9299355c3a7">
+  <tabularSections uuid="174eb137-d7e7-4ec3-8445-9fc8f1d14ac3">
     <producedTypes>
-      <objectType typeId="692701ad-6dad-486d-80c2-15dde649fe2d" valueTypeId="41890128-c379-4144-9540-4c91bab4dbd4"/>
-      <rowType typeId="f0977391-a322-4bf2-9c2e-d1a929589ffb" valueTypeId="0ef73903-9e8a-4e76-9709-f9df80c221fe"/>
+      <objectType typeId="bf48fd5f-1629-40f8-b8b7-9ced5613e00b" valueTypeId="e3999d46-8e26-4a75-975d-7e1d849e089c"/>
+      <rowType typeId="a794254a-56ae-4c9c-a930-28dfc857a08d" valueTypeId="732c0234-e9ac-4d68-aef8-a175f672ef45"/>
     </producedTypes>
     <name>Коды</name>
     <synonym>
       <key>ru</key>
       <value>Коды</value>
     </synonym>
-    <attributes uuid="7cf057d7-b98f-40e2-b8a5-5b10613f10c4">
+    <attributes uuid="6468a6f5-d9c6-4227-afef-e029d333311e">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -117,11 +115,11 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="837b7c5e-5e1f-4614-8bed-282c56e6ddc3">
-      <name>НомерСтрокиЗаказа</name>
+    <attributes uuid="5de768d4-768f-4ff2-a196-a1de3918357e">
+      <name>КоличествоЗаказа</name>
       <synonym>
         <key>ru</key>
-        <value>Номер строки заказа</value>
+        <value>Количество заказа</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -135,34 +133,17 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="7db8dfc9-b006-4d8e-98ae-1d4fd2423bd6">
-      <name>Количество</name>
+    <attributes uuid="ba6ea5f4-a079-4990-8391-d0b17d24ae88">
+      <name>КоличествоКодов</name>
       <synonym>
         <key>ru</key>
-        <value>Количество</value>
+        <value>Количество кодов (сколько заказать)</value>
       </synonym>
       <type>
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
           <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="01f45bd0-aa5f-4498-b3a6-cb59f1214c10">
-      <name>СмещениеВОтвете</name>
-      <synonym>
-        <key>ru</key>
-        <value>Смещение в ответе</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

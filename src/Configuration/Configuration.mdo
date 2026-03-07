@@ -56,10 +56,13 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ОператорыМаркировки</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.ТипыПродукцииМаркировки</catalogs>
   <documents>Document.Заказ</documents>
+  <documents>Document.ЗаказКодовМаркировки</documents>
   <documents>Document.ПоступлениеКодовМаркировки</documents>
   <enums>Enum.ОкружениеОператораМаркировки</enums>
+  <enums>Enum.СтатусВыполненияЗаказаКодов</enums>
   <enums>Enum.СтатусКодаМаркировки</enums>
   <enums>Enum.Страны</enums>
   <informationRegisters>InformationRegister.КодыМаркировки</informationRegisters>
