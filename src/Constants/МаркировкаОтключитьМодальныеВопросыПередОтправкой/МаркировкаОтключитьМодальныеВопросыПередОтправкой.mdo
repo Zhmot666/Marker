@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ab5f2d6-8126-440b-9a88-6ac828dfadaf">
+  <producedTypes>
+    <managerType typeId="20426b93-7c06-4752-8ef1-2e8921fa4bba" valueTypeId="71881db5-49ee-4db8-a15d-f16fb1e6eb9e"/>
+    <valueManagerType typeId="50472111-4a6e-499a-bdc8-0fe49ed76d5b" valueTypeId="5545f799-9f43-49fa-88a1-e951e6460879"/>
+    <valueKeyType typeId="12b658b4-c460-487d-b0ee-a150b4f6e5eb" valueTypeId="2181f834-97c7-4ca0-ba31-3f90f1823d8f"/>
+  </producedTypes>
+  <name>МаркировкаОтключитьМодальныеВопросыПередОтправкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить модальные вопросы «Продолжить/Отменить» перед отправкой запроса на сервер (для тестирования)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

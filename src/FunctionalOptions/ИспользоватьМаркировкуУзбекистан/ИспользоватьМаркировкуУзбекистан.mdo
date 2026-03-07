@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fa4f272-48d0-4239-a371-0887d648519e">
+  <name>ИспользоватьМаркировкуУзбекистан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включение функционала маркировки для Узбекистана</value>
+  </synonym>
+  <location>Constant.ИспользоватьМаркировкуУзбекистан</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

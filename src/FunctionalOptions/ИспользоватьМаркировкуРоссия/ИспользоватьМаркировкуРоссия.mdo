@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9a7d175-3808-46bc-9bc8-3682c0ec3c9d">
+  <name>ИспользоватьМаркировкуРоссия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включение функционала маркировки для России</value>
+  </synonym>
+  <location>Constant.ИспользоватьМаркировкуРоссия</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

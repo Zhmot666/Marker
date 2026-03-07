@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b2469b-cc65-4640-add3-2f38fe52a259">
+  <producedTypes>
+    <refType typeId="cea209fa-5f8f-4fc5-a070-deb544a28fb1" valueTypeId="7201751b-6c28-49c9-91a5-362770aa8ded"/>
+    <listType typeId="2a6d7dc3-ad40-45c5-af92-4d954d5b585b" valueTypeId="4a30b667-c913-4dff-a207-136a8c8e6260"/>
+    <managerType typeId="0ee771fc-b9f7-4484-9d71-7f6938719de9" valueTypeId="0b09b95c-4d39-45bf-ba9a-66490b05c4f7"/>
+  </producedTypes>
+  <name>Страны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="971d92c1-ab70-4747-ad91-dea4f8d8b4d4">
+    <name>Казахстан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Казахстан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e238d40-4448-4e08-b32f-d5c42363f7af">
+    <name>Узбекистан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узбекистан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a38bafb-efbe-4996-bc62-e32c48ad5c8d">
+    <name>Россия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Россия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec81e241-d02e-40ea-98b5-43257ee764cd">
+    <name>Беларусь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Беларусь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

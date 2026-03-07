@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10aa6b0d-bc13-4164-be88-6a693d400d10">
+  <producedTypes>
+    <refType typeId="42147990-ecdf-4cf7-a347-46e17dbb6f4b" valueTypeId="61d8e6e8-4fa1-4124-8805-3dc256e0f016"/>
+    <listType typeId="f0736083-f357-47b2-9c8b-ce1aaf526540" valueTypeId="67873deb-0690-4e69-bdb1-7c400c93c889"/>
+    <managerType typeId="d1e4d2aa-b9f5-43e4-92d8-2fe7111b4a46" valueTypeId="2dda8fb3-322e-49ef-a9e3-4969b8c886a1"/>
+  </producedTypes>
+  <name>СтатусКодаМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус кода маркировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c40a639f-0cf6-4fc6-b428-c28c45ae73b0">
+    <name>ВНаличии</name>
+    <synonym>
+      <key>ru</key>
+      <value>В наличии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a854e9f-8cec-4d83-8500-594acf9c9d33">
+    <name>ВыданНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдан на производство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0de341da-99c3-4f87-8f35-8a0107b905a0">
+    <name>Использован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использован</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

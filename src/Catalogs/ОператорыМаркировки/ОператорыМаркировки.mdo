@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfdcf6b6-2da9-4ca7-9eb4-5abcaeb10230">
+  <producedTypes>
+    <objectType typeId="2fb854e5-7002-4d70-8f8f-2841836c0a85" valueTypeId="2a19b8ca-6b7c-4136-8d77-3bf322a4314a"/>
+    <refType typeId="8c8526a5-98cb-4301-97b5-26605359ce63" valueTypeId="9d5d16ce-3c40-4099-aa78-6879f9b1e903"/>
+    <selectionType typeId="f6b2a0d5-f757-42dd-bbab-dd00d8c47624" valueTypeId="1163f0ac-2eed-4407-bc47-dd3a450ef6f8"/>
+    <listType typeId="2bc653fb-5e99-44d6-99e5-e6b08eff9112" valueTypeId="9a7e1915-41cb-4b21-bd30-8d5a9e83c158"/>
+    <managerType typeId="0e9ba17a-d9f7-45d2-a64e-ed76c2746336" valueTypeId="b84a89f0-d5fc-4461-9f75-8f1dd0a80592"/>
+  </producedTypes>
+  <name>ОператорыМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операторы маркировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОператорыМаркировки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОператорыМаркировки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Оператор маркировки</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Операторы маркировки</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f2f613b0-799d-4584-9180-06befbf7e8e8">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Страны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="89ca1543-c397-40da-a14b-36c1ad45538f">
+    <name>РабочийURL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий URL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="399bc4a0-df0b-408d-8914-3c25d54c7044">
+    <name>ОкружениеОператораМаркировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окружение оператора маркировки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОкружениеОператораМаркировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4f46ce4-198b-4c96-a887-098c6c28f831">
+    <name>Активный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c34894b-a003-435c-bfc8-6b8e4c90af16">
+    <name>КлючAPI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b21eceb-56bd-490d-b721-23f4e22a2e47">
+    <name>Таймаут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таймаут</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

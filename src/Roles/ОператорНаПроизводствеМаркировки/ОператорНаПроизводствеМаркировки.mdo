@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e5c4f7d-1e8b-49b5-8aa3-4cc2cb25cec2">
+  <name>ОператорНаПроизводствеМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оператор на производстве маркировки</value>
+  </synonym>
+  <comment>Выгрузка кодов в файл, загрузка JSON-результата станции, привязка к заказу</comment>
+</mdclass:Role>

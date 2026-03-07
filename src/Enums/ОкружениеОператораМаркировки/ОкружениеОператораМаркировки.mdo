@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a0167e6-aa08-4e37-b116-d794d4f9cec2">
+  <producedTypes>
+    <refType typeId="1a50baa7-e915-4e6c-8ce3-a114e809d547" valueTypeId="4f9b7673-c77c-4d44-afe6-59d63f3b8ffa"/>
+    <listType typeId="4991f60b-d047-48b6-8098-3055e980f9eb" valueTypeId="282ff6be-fe90-43c2-98d4-7176399aea66"/>
+    <managerType typeId="1a888852-29f1-4e1e-8add-d1b2d5577e28" valueTypeId="773188e7-d07e-4dfe-b2d4-a4c97ae588e3"/>
+  </producedTypes>
+  <name>ОкружениеОператораМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окружение оператора маркировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="23300380-c90d-4262-92e3-f6daa0964f12">
+    <name>Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий сервер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2fa7344d-2530-4d1d-adab-c03fe3e2cc62">
+    <name>Тестовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый сервер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

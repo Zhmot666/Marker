@@ -39,4 +39,28 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.МенеджерМаркировки</roles>
+  <roles>Role.ОператорКодовМаркировки</roles>
+  <roles>Role.ОператорНаПроизводствеМаркировки</roles>
+  <commonModules>CommonModule.НастройкиОбменаМаркировкиСервер</commonModules>
+  <functionalOptions>FunctionalOption.ИспользоватьМаркировкуБеларусь</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьМаркировкуКазахстан</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьМаркировкуРоссия</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьМаркировкуУзбекистан</functionalOptions>
+  <constants>Constant.ИспользоватьМаркировкуБеларусь</constants>
+  <constants>Constant.ИспользоватьМаркировкуКазахстан</constants>
+  <constants>Constant.ИспользоватьМаркировкуРоссия</constants>
+  <constants>Constant.ИспользоватьМаркировкуУзбекистан</constants>
+  <constants>Constant.МаркировкаОтключитьМодальныеВопросыПередОтправкой</constants>
+  <constants>Constant.МаркировкаТаймаутЗапросаСекунды</constants>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ОператорыМаркировки</catalogs>
+  <catalogs>Catalog.ТипыПродукцииМаркировки</catalogs>
+  <documents>Document.Заказ</documents>
+  <documents>Document.ПоступлениеКодовМаркировки</documents>
+  <enums>Enum.ОкружениеОператораМаркировки</enums>
+  <enums>Enum.СтатусКодаМаркировки</enums>
+  <enums>Enum.Страны</enums>
+  <informationRegisters>InformationRegister.КодыМаркировки</informationRegisters>
 </mdclass:Configuration>

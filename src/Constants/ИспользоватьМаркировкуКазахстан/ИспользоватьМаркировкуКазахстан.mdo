@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcbe6ee5-2431-4468-bf6b-037b696bf465">
+  <producedTypes>
+    <managerType typeId="f9de5803-3e19-41d2-baf6-8cec62338fd2" valueTypeId="150d7981-6d51-4f91-84cc-40de6c3670aa"/>
+    <valueManagerType typeId="635db609-3acc-4e92-bcf3-6e9a30c32146" valueTypeId="aadcfe0f-e09f-4461-99ab-20ff80122fb2"/>
+    <valueKeyType typeId="3b229d5c-c58e-4a2c-9cb3-823ac76dc8da" valueTypeId="3adcb3b6-c68c-4ec4-85d1-0444f326274f"/>
+  </producedTypes>
+  <name>ИспользоватьМаркировкуКазахстан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включена ли маркировка КЗ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

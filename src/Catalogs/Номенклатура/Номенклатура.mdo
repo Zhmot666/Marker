@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff30d8ac-75fd-41db-b0b6-4c51797f1e2c">
+  <producedTypes>
+    <objectType typeId="316c7987-dce8-46a9-9be3-8d8c4eb9dc66" valueTypeId="61e11f61-c7d7-4ed4-8a85-ea66e30a6f50"/>
+    <refType typeId="af952d82-e744-487d-9b35-77658ca452e0" valueTypeId="409c3589-5b28-4601-b5b2-5aeee8ddc67f"/>
+    <selectionType typeId="5a6fac60-a885-452e-915b-35632c867c48" valueTypeId="90591f09-3227-4349-b53d-541118385ffb"/>
+    <listType typeId="b2b3da97-26ad-4cf2-be06-3fd3bd1be318" valueTypeId="d74ff81e-0b3e-4c32-a2eb-fd3053145f90"/>
+    <managerType typeId="d42659bb-9776-468a-8f3a-bc05f4f49ac8" valueTypeId="071b3139-74bd-4e6a-9691-2b63d7b8b7ba"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d1a1025e-dfd4-4a88-bb7f-1fc6a858fa1c">
+    <name>ТипПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип продукции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыПродукцииМаркировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ecf6890-4529-4090-a1d7-fb132df7d2f2">
+    <name>GTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>GTIN</value>
+    </synonym>
+    <comment>Глобальный идентификатор товара</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

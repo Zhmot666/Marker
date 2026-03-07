@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04356254-688a-45bf-bed3-dc4e18b92a86">
+  <name>НастройкиОбменаМаркировкиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки обмена маркировки сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

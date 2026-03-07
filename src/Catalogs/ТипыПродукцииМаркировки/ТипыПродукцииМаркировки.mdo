@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="915f2ab7-154c-41b8-bfeb-0208fb4b209f">
+  <producedTypes>
+    <objectType typeId="5350ec32-dda3-42d1-bdb1-cb0974a63b14" valueTypeId="4662ba60-42af-4732-a90a-b192504634f3"/>
+    <refType typeId="8992285a-954b-4756-8e3d-a1c7a84ba4d0" valueTypeId="fc8b7cb4-fff4-41f2-8d70-82c0f571e3f7"/>
+    <selectionType typeId="6f3e0df8-8357-4d51-a124-ea4d7cda5b86" valueTypeId="b5abd200-f597-4616-9811-25c9f04ad12a"/>
+    <listType typeId="4d474e49-bac3-4316-9529-75293094a08d" valueTypeId="8666088d-db8b-4d75-93cb-491b7d9734c9"/>
+    <managerType typeId="1d50863b-ff70-4b18-a02a-d913afce1628" valueTypeId="b048d1e8-d536-4e79-964e-d932bb22f2c9"/>
+  </producedTypes>
+  <name>ТипыПродукцииМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы продукции маркировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыПродукцииМаркировки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипыПродукцииМаркировки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип продукции маркировки</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2bb74ed5-7cce-44fb-a4b9-0c049ca794b9">
+    <name>ОбозначениеТоварнойГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обозначение товарной группы</value>
+    </synonym>
+    <comment>Обозначение товарной группы для подстановки в URL API</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

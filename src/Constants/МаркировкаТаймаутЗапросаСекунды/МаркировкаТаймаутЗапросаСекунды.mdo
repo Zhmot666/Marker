@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26b0abc9-7fca-4a8f-a0db-34acad70421b">
+  <producedTypes>
+    <managerType typeId="14220b84-f9b1-4a42-bcab-44746a0ba5cf" valueTypeId="3f3e9ff5-de2f-4972-99dd-2f9095241784"/>
+    <valueManagerType typeId="1872c59c-10bf-40e8-989a-af58cf24da7d" valueTypeId="49b51995-7374-4e47-b1ea-5e2a86d1c93d"/>
+    <valueKeyType typeId="feb227dc-ae4c-4884-953e-4561e6774ec7" valueTypeId="b8abb651-ef23-4bcf-aeee-03666d7fc501"/>
+  </producedTypes>
+  <name>МаркировкаТаймаутЗапросаСекунды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут HTTP-запроса к API, секунды (например, 30)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

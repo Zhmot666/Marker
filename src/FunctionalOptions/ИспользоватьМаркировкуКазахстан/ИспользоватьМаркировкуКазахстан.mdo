@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="143a01a3-ddac-4f1b-a7ba-0405b3c84d38">
+  <name>ИспользоватьМаркировкуКазахстан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включение функционала маркировки для Казахстана</value>
+  </synonym>
+  <location>Constant.ИспользоватьМаркировкуКазахстан</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

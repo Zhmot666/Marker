@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6b947f4-74d3-4104-a75d-117292c2d7a4">
+  <producedTypes>
+    <managerType typeId="f2507e7a-1689-489c-a407-086bfd956d12" valueTypeId="1c740133-db29-443a-bb7e-f1d8cb3422d8"/>
+    <valueManagerType typeId="f114e892-70fe-40c2-a871-b79d436080ed" valueTypeId="877df35e-9325-4562-9765-a0847c817717"/>
+    <valueKeyType typeId="6d031cf6-fb6c-45d1-80bf-ffeac97a4b23" valueTypeId="dda1cb9f-050f-47ee-bd4a-db46273e72d0"/>
+  </producedTypes>
+  <name>ИспользоватьМаркировкуУзбекистан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Включена ли маркировка УЗ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
