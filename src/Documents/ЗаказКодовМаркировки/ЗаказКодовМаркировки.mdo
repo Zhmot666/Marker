@@ -27,6 +27,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаказКодовМаркировки.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f69e8cb2-b1c9-4f67-91b5-bf81303e2028">
@@ -91,6 +92,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="50457cd6-5f90-4d4c-bfbc-ed3fe9b72fc5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="174eb137-d7e7-4ec3-8445-9fc8f1d14ac3">
     <producedTypes>
       <objectType typeId="bf48fd5f-1629-40f8-b8b7-9ced5613e00b" valueTypeId="e3999d46-8e26-4a75-975d-7e1d849e089c"/>

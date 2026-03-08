@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c75ed59-5a02-4b10-b7c8-be8522794267">
+  <name>ОбработкаОчередиОбменаМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка очереди обмена маркировки</value>
+  </synonym>
+  <methodName>CommonModule.ОчередьОбменаМаркировкиСервер.ОбработатьОчередь</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

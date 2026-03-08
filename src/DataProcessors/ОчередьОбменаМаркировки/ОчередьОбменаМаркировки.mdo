@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6ec0e1d-388f-40d3-a878-d0b3328ce42f">
+  <producedTypes>
+    <objectType typeId="80b92ecf-8a06-4c94-bbec-5c306570ee18" valueTypeId="eb6731ef-ac94-43d0-9107-519cef16599b"/>
+    <managerType typeId="d328a178-c28d-405b-9c9e-c6c9f84847d0" valueTypeId="0c6f2a5a-2cc3-4cfc-81d7-fe8968cd1784"/>
+  </producedTypes>
+  <name>ОчередьОбменаМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь обмена маркировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОчередьОбменаМаркировки.Form.Форма</defaultForm>
+  <forms uuid="d73f1f7a-7df4-4ec5-bea4-97d0e10cfe78">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

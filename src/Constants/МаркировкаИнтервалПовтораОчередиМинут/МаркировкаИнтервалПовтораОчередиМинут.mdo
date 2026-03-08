@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cde47eb-08da-4556-b5cd-39540034f107">
+  <producedTypes>
+    <managerType typeId="04e3a133-efbf-437c-8094-575fa4c8da30" valueTypeId="c084f780-0934-4506-9c97-e127e4f40a83"/>
+    <valueManagerType typeId="87241f4e-f8ae-47e8-8e38-b117ab6f2cfb" valueTypeId="3c4734d3-fd3e-4a2c-8a5e-77e43e01d52d"/>
+    <valueKeyType typeId="7131bbab-c302-482a-9a39-6ed765e5edcd" valueTypeId="a9d06ba6-4000-424a-92b8-083c822d7b40"/>
+  </producedTypes>
+  <name>МаркировкаИнтервалПовтораОчередиМинут</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервал между повторами очереди обмена, минут</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

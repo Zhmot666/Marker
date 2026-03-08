@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63db5caf-6ced-49c7-a609-539d445053b6">
+  <producedTypes>
+    <refType typeId="fbd6a4d7-53da-4419-a183-d92fada8647a" valueTypeId="5e611858-06db-44d9-a340-4b2dd1338fac"/>
+    <listType typeId="fbdf5e1c-4d38-4843-bdee-ffc42122d77d" valueTypeId="6e8c7c37-e8dd-4994-bfda-46cfdb5f6289"/>
+    <managerType typeId="ada3a340-d425-42e7-982a-29d25aa22a2c" valueTypeId="e84fa1a2-3500-487d-bec2-84d75f94dd19"/>
+  </producedTypes>
+  <name>ТипОперацииОчередиМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип операции очереди маркировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cead4765-47e9-4f65-baad-28ef66c9809e">
+    <name>ЗаказКодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ кодов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ec2988b-2d78-4323-ab35-ae8f3b488d9c">
+    <name>ОтчетНанесения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет нанесения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4342d86b-5b47-4428-b6c2-f7c3a756405e">
+    <name>ОтчетАгрегации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет агрегации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0399da86-f84d-45d5-b114-d4245be1e6f9">
+    <name>ПроверкаСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка статуса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d18b552-3d6c-4f41-8da7-219f5da9ff9f">
+    <name>ПолучениеСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение справочников</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

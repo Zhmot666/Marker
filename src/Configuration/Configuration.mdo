@@ -42,7 +42,11 @@
   <roles>Role.МенеджерМаркировки</roles>
   <roles>Role.ОператорКодовМаркировки</roles>
   <roles>Role.ОператорНаПроизводствеМаркировки</roles>
+  <commonModules>CommonModule.HTTPКлиентМаркировкиСервер</commonModules>
+  <commonModules>CommonModule.JSONМаркировкиСервер</commonModules>
   <commonModules>CommonModule.НастройкиОбменаМаркировкиСервер</commonModules>
+  <commonModules>CommonModule.ОчередьОбменаМаркировкиСервер</commonModules>
+  <scheduledJobs>ScheduledJob.ОбработкаОчередиОбменаМаркировки</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьМаркировкуБеларусь</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьМаркировкуКазахстан</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьМаркировкуРоссия</functionalOptions>
@@ -51,6 +55,8 @@
   <constants>Constant.ИспользоватьМаркировкуКазахстан</constants>
   <constants>Constant.ИспользоватьМаркировкуРоссия</constants>
   <constants>Constant.ИспользоватьМаркировкуУзбекистан</constants>
+  <constants>Constant.МаркировкаИнтервалПовтораОчередиМинут</constants>
+  <constants>Constant.МаркировкаМаксимумПовторовОчереди</constants>
   <constants>Constant.МаркировкаОтключитьМодальныеВопросыПередОтправкой</constants>
   <constants>Constant.МаркировкаТаймаутЗапросаСекунды</constants>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -63,7 +69,12 @@
   <documents>Document.ПоступлениеКодовМаркировки</documents>
   <enums>Enum.ОкружениеОператораМаркировки</enums>
   <enums>Enum.СтатусВыполненияЗаказаКодов</enums>
+  <enums>Enum.СтатусЗаписиОчередиМаркировки</enums>
   <enums>Enum.СтатусКодаМаркировки</enums>
   <enums>Enum.Страны</enums>
+  <enums>Enum.ТипОперацииОчередиМаркировки</enums>
+  <dataProcessors>DataProcessor.ОчередьОбменаМаркировки</dataProcessors>
   <informationRegisters>InformationRegister.КодыМаркировки</informationRegisters>
+  <informationRegisters>InformationRegister.ЛогОбращенийAPIМаркировки</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьОбменаМаркировки</informationRegisters>
 </mdclass:Configuration>

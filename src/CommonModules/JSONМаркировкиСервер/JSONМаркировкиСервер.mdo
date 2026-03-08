@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12db8da4-d97c-46c8-8fd6-4055c3d255d8">
+  <name>JSONМаркировкиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>JSONМаркировки сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

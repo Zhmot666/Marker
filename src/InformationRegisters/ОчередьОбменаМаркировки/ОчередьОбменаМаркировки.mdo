@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7fd0164-4aa3-49a2-9af3-233a7a028fbe">
+  <producedTypes>
+    <selectionType typeId="f87bc072-fc9a-4fc7-84c3-2329cf542691" valueTypeId="a0de8f0a-0fb9-4561-bf53-715a7bbdee14"/>
+    <listType typeId="4fc614fe-a350-49e5-acf4-b8ac09f4f63d" valueTypeId="cd8d93e4-4e91-42f4-85af-9f9b2c7e0136"/>
+    <managerType typeId="668cd1f4-1f43-45fd-b9af-184cf63e7b62" valueTypeId="23e8ff7b-a36c-4968-96c5-e2a248f6b3f3"/>
+    <recordSetType typeId="5dea12f3-f1fe-4947-8cad-e86faa61e1d7" valueTypeId="366d48ca-027f-4baf-8565-9d83e4d2a847"/>
+    <recordKeyType typeId="1297a6b3-cdcf-4eaa-a084-5dcfe25b363c" valueTypeId="709e2a06-90ee-43ca-a4d1-214f8b79c582"/>
+    <recordType typeId="a50e764b-6873-4f34-8d51-6dd1a870e8b0" valueTypeId="aa5f2a39-bc02-41f7-986f-3b9a03320589"/>
+    <recordManagerType typeId="8da4ab30-3fe0-4ebb-8922-b3992cdd5f8d" valueTypeId="94fd64fb-d3f7-4025-8761-b4d9d2ecdfca"/>
+  </producedTypes>
+  <name>ОчередьОбменаМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь обмена маркировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Очередь обмена маркировки</value>
+  </recordPresentation>
+  <resources uuid="097c5ec7-6859-4031-949c-8c23bf5c04dd">
+    <name>ТипОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип операции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипОперацииОчередиМаркировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f5abc94-1d54-42c8-8158-bc7f82654ecd">
+    <name>ТелоЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело запроса</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="49488ab7-f91f-4862-a141-893e737d5a32">
+    <name>ДокументЗаказКодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ заказ кодов</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКодовМаркировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6a570a03-7ea1-48f4-a55c-7fe3d0dfbb8b">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусЗаписиОчередиМаркировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="04a0bf5a-46de-4909-8b2e-0a7c0bffb0f5">
+    <name>СчетчикПовторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик повторов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="93feda93-25fe-421a-b842-acb97ab7ab19">
+    <name>ДатаСледующейПопытки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата следующей попытки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9529324c-edc7-45ab-979b-cda64ed2d019">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="19cb9392-ad8d-4641-a39e-99806e91de1f">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4244d246-9290-4ffb-b5d1-9c7a8b368254">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

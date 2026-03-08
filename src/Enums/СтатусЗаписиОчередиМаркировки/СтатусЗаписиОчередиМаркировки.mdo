@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="001df18e-0e79-4836-b9a7-4f54ec8cd881">
+  <producedTypes>
+    <refType typeId="6a09550f-2de2-4e69-a4fb-30f19ca1d064" valueTypeId="5c384dff-2e6b-435b-84a2-11e7bc166ea3"/>
+    <listType typeId="55e61c3c-4971-4474-84df-659a37ddbac8" valueTypeId="98030146-5025-41e8-bb02-9cb7aab60866"/>
+    <managerType typeId="d06b05dc-b821-4aee-b601-32bf4509a849" valueTypeId="33e3c0db-b620-4b45-ac09-9dd147c3b9cd"/>
+  </producedTypes>
+  <name>СтатусЗаписиОчередиМаркировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус записи очереди маркировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02215f3f-65b2-42ee-9cf9-3598785318f5">
+    <name>КВыполнению</name>
+    <synonym>
+      <key>ru</key>
+      <value>К выполнению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9668a417-2093-42a6-92d0-78ccd710a099">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42364afd-a1c5-4627-91b6-176b98714846">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0a6de85-a01a-4de2-969a-c56349e3d064">
+    <name>ТребуетРазбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требует разбора</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
